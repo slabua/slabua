@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 
 # [Salvatore La Bua](http://www.slblabs.com)
-### Computer Science Engineer. Robotics/AI, ML, DL.
+### Computer Science Engineer. Robotics/AI, ML, DL at [株式会社Rist](http://rist.co.jp).
 - Robotics team, responsible for Robotics R&D.
 - Robot design, control, motion, perception and manipulation.
 - Image analysis, recognition and classification.
