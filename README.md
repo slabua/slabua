@@ -18,22 +18,24 @@ Here are some ideas to get you started:
 
 <p align="center">
   <a href="https://twitter.com/slabua">
-    <img src="https://img.shields.io/twitter/follow/slabua?style=for-the-badge&label=%40slabua&logo=twitter&logoColor=00AEFF&labelColor=black&color=7fff00">
-  </a>
+    <img src="https://img.shields.io/twitter/follow/slabua?style=flat&label=%40slabua&logo=twitter&logoColor=blue&labelColor=1b1b1b&color=blue">
+  </a>&nbsp;
   <a href="https://www.linkedin.com/in/slabua/">
-    <img src="https://img.shields.io/badge/-slabua-blue?style=for-the-badge&logo=Linkedin&logoColor=00AEFF&labelColor=black&color=black">
+    <img src="https://img.shields.io/badge/-%40slabua-blue?style=flat&logo=Linkedin&logoColor=blue&labelColor=1b1b1b&color=blue">
+  </a><br />
+  <a href="mailto:slabua@gmail.com">
+    <img src="https://img.shields.io/badge/slabua@gmail.com-blue?style=flat&logo=Microsoft-Outlook&logoColor=blue&labelColor=1b1b1b&color=blue">
   </a>
-  <!-- <a href="mailto:slabua@gmail.com">
-    <img src="https://img.shields.io/badge/slabua@gmail.com-0078D4?style=for-the-badge&logo=Microsoft-Outlook&logoColor=00AEFF&labelColor=black&color=black">
-  </a>
+  <!-- 
   <a href="https://keybase.io/slabua">
-    <img src="https://img.shields.io/keybase/pgp/slabua?style=for-the-badge&logoColor=00AEFF&labelColor=black&color=7fff00">
+    <img src="https://img.shields.io/keybase/pgp/slabua?style=flat&logoColor=00AEFF&labelColor=black&color=7fff00">
   </a> -->
+  <br /><br />
+  <a href="https://github.com/slabua">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=merko" />
+  </a>
+  <br /><br />
+  <a href="https://github.com/slabua">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=merko&langs_count=20" />
+  </a>
 </p>
-
-<a href="https://github.com/slabua">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=chartreuse-dark" />
-</a>
-<a href="https://github.com/slabua">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=chartreuse-dark&langs_count=8" />
-</a>
