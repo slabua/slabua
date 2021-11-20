@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Salvatore La Bua
+# [Salvatore La Bua](http://www.slblabs.com)
 ### Computer Science Engineer. Robotics/AI, ML, DL.
 - Robotics team, responsible for Robotics R&D.
 - Robot design, control, motion, perception and manipulation.
@@ -41,12 +41,10 @@ Here are some ideas to get you started:
   </a> -->
 </p>
 
-
-
 <p align="center">
   <br />
   <a href="https://github.com/slabua">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=merko" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=merko&include_all_commits=false" />
   </a>
   <br /><br />
   <a href="https://github.com/slabua">
