@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!-- https://github.com/anuraghazra/github-readme-stats -->
+
 # [Salvatore La Bua](http://www.slblabs.com)
 ### Computer Science Engineer. Robotics/AI, ML, DL.
 - Robotics team, responsible for Robotics R&D.
