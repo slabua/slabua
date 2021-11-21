@@ -49,13 +49,19 @@ Here are some ideas to get you started:
   </a> -->
 </p>
 
+[![](https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false)](https://github.com/slabua)
+
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=github_dark&langs_count=20)](https://github.com/slabua)
+
+<!--
 <p align="center">
   <br />
   <a href="https://github.com/slabua">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=merko&include_all_commits=false" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false" />
   </a>
   <br /><br />
   <a href="https://github.com/slabua">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=merko&langs_count=20" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=github_dark&langs_count=20" />
   </a>
 </p>
+-->
