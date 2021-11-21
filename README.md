@@ -29,13 +29,13 @@ Here are some ideas to get you started:
 <p align="center">
   <br />
   <a href="https://twitter.com/slabua">
-    <img src="https://img.shields.io/twitter/follow/slabua?style=flat&label=%40slabua&logo=twitter&logoColor=blue&labelColor=1b1b1b&color=blue">
+    <img src="https://img.shields.io/twitter/follow/slabua?style=flat&color=blue&logo=Twitter&logoColor=blue&label=%40slabua&labelColor=1b1b1b">
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/slabua/">
-    <img src="https://img.shields.io/badge/-%40slabua-blue?style=flat&logo=Linkedin&logoColor=blue&labelColor=1b1b1b&color=blue">
+    <img src="https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b">
   </a>&nbsp;
   <a href="mailto:slabua@gmail.com">
-    <img src="https://img.shields.io/badge/slabua@gmail.com-blue?style=flat&logo=Microsoft-Outlook&logoColor=blue&labelColor=1b1b1b&color=blue">
+    <img src="https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b">
   </a>
   <!-- 
   <a href="https://keybase.io/slabua">
