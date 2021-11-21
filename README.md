@@ -19,6 +19,11 @@ Here are some ideas to get you started:
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 
 # [Salvatore La Bua](http://www.slblabs.com)
+
+[![](https://img.shields.io/twitter/follow/slabua?style=flat&color=blue&logo=Twitter&logoColor=blue&label=%40slabua&labelColor=1b1b1b)](https://twitter.com/slabua)
+[![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b)](https://www.linkedin.com/in/slabua)
+[![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
+
 ### Computer Science Engineer. Robotics/AI, ML, DL at [株式会社Rist](http://rist.co.jp).
 - Robotics team, responsible for Robotics R&D.
 - Robot design, control, motion, perception and manipulation.
@@ -26,6 +31,7 @@ Here are some ideas to get you started:
 - AI algorithms design and implementation.
 - UI/UX design and implementation.
 
+<!--
 <p align="center">
   <br />
   <a href="https://twitter.com/slabua">
@@ -37,7 +43,7 @@ Here are some ideas to get you started:
   <a href="mailto:slabua@gmail.com">
     <img src="https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b">
   </a>
-  <!-- 
+  !--
   <a href="https://keybase.io/slabua">
     <img src="https://img.shields.io/keybase/pgp/slabua?style=flat&logoColor=00AEFF&labelColor=black&color=7fff00">
   </a> -->
