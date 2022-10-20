@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
 
 ### Computer Science Engineer. Robotics/AI, ML, DL at [株式会社Rist](http://rist.co.jp).
-- Robotics team, responsible for Robotics R&D.
+- Responsible for Robotics R&D.
 - Robot design, control, motion, perception and manipulation.
 - Image analysis, recognition and classification.
 - AI algorithms design and implementation.
