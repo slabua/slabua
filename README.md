@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 # [Salvatore La Bua](http://www.slblabs.com)
 
-[![](https://img.shields.io/twitter/follow/slabua?style=flat&color=1b1b1b&logo=Twitter&logoColor=blue&label=%40slabua&labelColor=1b1b1b)](https://twitter.com/slabua)
+[![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Twitter&logoColor=blue&labelColor=1b1b1b)](https://twitter.com/slabua)
 [![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b)](https://www.linkedin.com/in/slabua)
 [![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
 
