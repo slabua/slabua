@@ -25,12 +25,23 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
 
 ### Tinkerer. Computer Science Engineer.
-### Robotics/AI, ML, DL at [株式会社Rist](http://rist.co.jp).
-- Responsible for Robotics R&D.
-- Robot design, control, motion, perception and manipulation.
-- Image analysis, recognition and classification.
-- AI algorithms design and implementation.
-- UI/UX design and implementation.
+### FA Equipment Engineer / PL at [株式会社Rist](http://rist.co.jp).
+- Currently:
+  - Factory Automation Equipment Engineer / PL
+- Previously:
+  - Application Development Engineer / PL
+  - Robotics/AI Development Engineer / PL
+  - Robotics/AI Development Engineer
+- Skills and Experience:
+  - Robotics R&D, AI, ML, DL, FA.
+  - Robot design, control, motion, perception and manipulation.
+  - Image analysis, recognition and classification.
+  - AI algorithms design and implementation.
+  - UI/UX design and implementation.
+  - Hardware design and assembly.
+  - Wastewater monitoring.
+  - FA Equipment design and realisation.
+
 
 <!--
 <p align="center">
