@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
 
 ### Tinkerer. Computer Science Engineer.
-### FA Equipment Engineer / PL at [株式会社Rist](http://rist.co.jp).
+### FA Equipment Engineer / PL at [株式会社Rist](http://rist.co.jp)
 - Currently:
   - Factory Automation Equipment Engineer / PL
 - Previously:
