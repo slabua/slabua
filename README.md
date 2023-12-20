@@ -58,8 +58,8 @@ Here are some ideas to get you started:
   !--
   <a href="https://keybase.io/slabua">
     <img src="https://img.shields.io/keybase/pgp/slabua?style=flat&logoColor=00AEFF&labelColor=black&color=7fff00">
-  </a> -->
-</p>
+  </a> --
+</p> -->
 
 [![](https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false)](https://github.com/slabua)
 
