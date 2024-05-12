@@ -41,6 +41,7 @@ Here are some ideas to get you started:
   - Hardware design and assembly.
   - Wastewater monitoring.
   - FA Equipment design and realisation.
+  - Camera/Lighting Equipment design and realisation.
 
 
 <!--
