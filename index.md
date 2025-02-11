@@ -23,6 +23,7 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Twitter&logoColor=blue&labelColor=1b1b1b)](https://twitter.com/slabua)
 [![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b)](https://www.linkedin.com/in/slabua)
 [![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=slabua&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### Tinkerer. Computer Science Engineer.
 ### FA Equipment Engineer / PL at [株式会社Rist](http://rist.co.jp)
@@ -41,6 +42,10 @@ Here are some ideas to get you started:
   - Hardware design and assembly.
   - Wastewater monitoring.
   - FA Equipment design and realisation.
+  - Camera/Lighting Equipment design and realisation.
+  - Custom sensors design and realisation.
+  - PCB design.
+
 
 
 <!--
@@ -60,6 +65,8 @@ Here are some ideas to get you started:
     <img src="https://img.shields.io/keybase/pgp/slabua?style=flat&logoColor=00AEFF&labelColor=black&color=7fff00">
   </a> --
 </p> -->
+
+
 
 [![](https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false)](https://github.com/slabua)
 
