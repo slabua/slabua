@@ -26,10 +26,11 @@ Here are some ideas to get you started:
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=slabua&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### Tinkerer. Computer Science Engineer.
-### FA Equipment Engineer / PL at [株式会社Rist](http://rist.co.jp)
+### Machine Vision Engineer / PL at [株式会社Rist](http://rist.co.jp)
 - Currently:
-  - Factory Automation Equipment Engineer / PL
+  - Machine Vision Engineer / PL
 - Previously:
+  - Factory Automation Equipment Engineer / PL
   - Application Development Engineer / PL
   - Robotics/AI Development Engineer / PL
   - Robotics/AI Development Engineer
