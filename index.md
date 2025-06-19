@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=slabua&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### Tinkerer. Computer Science Engineer.
-### Machine Vision Engineer / PL at [株式会社Rist](http://rist.co.jp)
+### Senior Machine Vision Engineer / PL at [株式会社Rist](http://rist.co.jp)
 - Currently:
   - Machine Vision Engineer / PL
 - Previously:
