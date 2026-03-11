@@ -28,8 +28,9 @@ Here are some ideas to get you started:
 ### Tinkerer. Computer Science Engineer.
 ### Senior Machine Vision Engineer / PL at [株式会社Rist](http://rist.co.jp)
 - Currently:
-  - Machine Vision Engineer / PL
+  - Senior Machine Vision Engineer / PL
 - Previously:
+  - Machine Vision Engineer / PL
   - Factory Automation Equipment Engineer / PL
   - Application Development Engineer / PL
   - Robotics/AI Development Engineer / PL
