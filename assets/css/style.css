@@ -1,0 +1,251 @@
+:root {
+  color-scheme: dark;
+
+  --page-bg: #151b25;
+  --surface: #202a38;
+  --surface-hover: #263447;
+  --border: #344153;
+
+  --text: #e6edf3;
+  --muted: #a9b7ca;
+  --subtle: #8291a5;
+
+  --accent: #7cb7ff;
+  --accent-strong: #a9d1ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--page-bg);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background: var(--page-bg);
+  color: var(--text);
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  line-height: 1.65;
+}
+
+.page {
+  width: min(100% - 36px, 620px);
+  margin: 0 auto;
+  padding: 48px 0 32px;
+}
+
+.profile-header {
+  margin-bottom: 34px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+
+  color: var(--subtle);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.profile-header h1 {
+  margin: 0;
+
+  color: var(--text);
+  font-size: clamp(2.2rem, 7vw, 3.4rem);
+  font-weight: 750;
+  line-height: 1.12;
+  letter-spacing: -0.055em;
+  overflow-wrap: anywhere;
+}
+
+.name-japanese {
+  margin: 9px 0 0;
+
+  color: var(--muted);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+.tagline {
+  margin: 16px 0 0;
+
+  color: var(--accent);
+  font-size: 1.02rem;
+  font-weight: 650;
+}
+
+.tagline span,
+.interests span {
+  color: var(--subtle);
+}
+
+.intro,
+.links-section {
+  margin-top: 34px;
+}
+
+.profile h2 {
+  margin: 0 0 12px;
+
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.intro p {
+  color: var(--muted);
+}
+
+.interests {
+  margin-top: 16px;
+
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+/* Social profile cards */
+
+.social-links {
+  display: grid;
+  gap: 11px;
+  margin-top: 16px;
+}
+
+.social-link,
+.social-link:visited {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  min-width: 0;
+  padding: 14px 16px;
+
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    transform 140ms ease;
+}
+
+.social-link:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+  border-color: #526985;
+  transform: translateY(-1px);
+}
+
+.social-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.link-mark {
+  display: flex;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  color: var(--accent-strong);
+  background: #303d50;
+  border-radius: 10px;
+
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.link-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.link-copy strong {
+  color: var(--text);
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.link-copy small {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.link-arrow {
+  padding-left: 6px;
+
+  color: var(--accent);
+  font-size: 1.15rem;
+}
+
+/* Footer */
+
+.profile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+
+  margin-top: 44px;
+
+  color: var(--subtle);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.footer-dot {
+  color: var(--accent);
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .page {
+    width: calc(100% - 32px);
+    padding-top: 30px;
+  }
+
+  .social-link {
+    padding: 12px;
+  }
+
+  .link-copy small {
+    font-size: 0.78rem;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .social-link {
+    transition: none;
+  }
+
+  .social-link:hover {
+    transform: none;
+  }
+}
