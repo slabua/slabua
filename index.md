@@ -12,10 +12,10 @@ description: Personal links and a short introduction.
     <div class="profile-identity">
       <img
         class="profile-picture"
-        src="https://lh3.googleusercontent.com/-ikpnGQ4ByZo/AAAAAAAAAAI/AAAAAAAA-30/NCjw2GjJxJw/s128-c/photo.jpg"
+        src="https://lh3.googleusercontent.com/-ikpnGQ4ByZo/AAAAAAAAAAI/AAAAAAAA-30/NCjw2GjJxJw/s128/photo.jpg"
         alt="Portrait of Salvatore La Bua"
-        width="96"
-        height="96"
+        width="128"
+        height="128"
       >
 
       <div class="profile-name">
