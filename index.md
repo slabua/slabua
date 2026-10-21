@@ -48,13 +48,13 @@ description: Personal links and a short introduction.
 
     <p class="interests">
       <span class="interest-item">Electronics</span>
-      <span class="interest-separator">/</span>
+      <span class="interest-separator">·</span>
       <span class="interest-item">Programming</span>
-      <span class="interest-separator">/</span>
+      <span class="interest-separator">·</span>
       <span class="interest-item">Reverse engineering</span>
-      <span class="interest-separator">/</span>
+      <span class="interest-separator">·</span>
       <span class="interest-item">Repair</span>
-      <span class="interest-separator">/</span>
+      <span class="interest-separator">·</span>
       <span class="interest-item">Making</span>
     </p>
   </section>
