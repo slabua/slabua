@@ -12,6 +12,11 @@
 
   --accent: #7cb7ff;
   --accent-strong: #a9d1ff;
+
+  --surface-hover: #253447;
+  --accent-soft: rgba(124, 183, 255, 0.12);
+  --line: rgba(169, 183, 202, 0.16);
+  --line-accent: rgba(124, 183, 255, 0.32);
 }
 
 * {
@@ -43,6 +48,69 @@ body {
   line-height: 1.65;
 }
 
+body {
+  position: relative;
+  isolation: isolate;
+}
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background-image:
+    radial-gradient(
+      circle at 1px 1px,
+      rgba(124, 183, 255, 0.14) 1px,
+      transparent 1.5px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 49.9%,
+      rgba(124, 183, 255, 0.035) 50%,
+      transparent 50.1%
+    );
+  background-size: 28px 28px, 112px 112px;
+  mask-image: linear-gradient(
+    to bottom,
+    black,
+    rgba(0, 0, 0, 0.5) 38%,
+    transparent 88%
+  );
+}
+
+body::after {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: min(45vw, 440px);
+  height: 440px;
+  pointer-events: none;
+  content: "";
+  opacity: 0.35;
+  background:
+    linear-gradient(
+      90deg,
+      transparent calc(72% - 0.5px),
+      var(--line-accent) 72%,
+      transparent calc(72% + 0.5px)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(39% - 0.5px),
+      var(--line-accent) 39%,
+      transparent calc(39% + 0.5px)
+    ),
+    radial-gradient(
+      circle at 72% 39%,
+      var(--accent) 0 2px,
+      transparent 2.8px
+    );
+  mask-image: linear-gradient(to left, black, transparent 95%);
+}
+
 .page {
   width: min(100% - 36px, 620px);
   margin: 0 auto;
@@ -51,6 +119,60 @@ body {
 
 .profile-header {
   margin-bottom: 34px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 28px 32px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(124, 183, 255, 0.055),
+      transparent 55%
+    ),
+    rgba(21, 27, 37, 0.88);
+}
+
+.profile-header::before {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 76px;
+  height: 2px;
+  content: "";
+  background: var(--accent);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: auto;
+  max-width: 150px;
+  max-height: 52px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.technical-signature {
+  display: inline-block;
+  margin: 24px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-family: monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+}
+
+.technical-signature span {
+  padding: 0 5px;
+  color: var(--accent);
 }
 
 .eyebrow {
@@ -126,6 +248,66 @@ body {
 
   font-size: 0.9rem;
   line-height: 1.9;
+}
+
+.intro h2,
+.links-section h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.intro h2::before,
+.links-section h2::before {
+  flex: 0 0 auto;
+  width: 5px;
+  height: 5px;
+  border-radius: 1px;
+  background: var(--accent);
+  content: "";
+  transform: rotate(45deg);
+}
+
+.interests {
+  padding-left: 14px;
+  border-left: 2px solid var(--line-accent);
+}
+
+.social-link {
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.social-link:hover {
+  border-color: var(--line-accent);
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
+.link-mark {
+  border: 1px solid var(--line);
+  background: rgba(124, 183, 255, 0.045);
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease;
+}
+
+.social-link:hover .link-mark {
+  border-color: var(--line-accent);
+  background: var(--accent-soft);
+}
+
+.link-arrow {
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.social-link:hover .link-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
 }
 
 /* Social profile cards */
@@ -260,5 +442,48 @@ body {
 
   .social-link:hover {
     transform: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .profile-header {
+    padding: 24px 20px 26px;
+  }
+
+  .profile-header::before {
+    left: 20px;
+  }
+
+  .brand-logo {
+    max-width: 130px;
+    max-height: 44px;
+  }
+
+  .technical-signature {
+    font-size: 0.61rem;
+    letter-spacing: 0.055em;
+  }
+
+  body::after {
+    width: 70vw;
+    height: 300px;
+    opacity: 0.25;
+  }
+}
+
+.social-link:focus-visible,
+.brand:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
