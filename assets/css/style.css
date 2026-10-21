@@ -1,3 +1,4 @@
+
 :root {
   color-scheme: dark;
 
@@ -54,7 +55,7 @@ body {
 }
 
 .eyebrow {
-  margin: 0 0 10px;
+  margin: 0 0 18px;
 
   color: var(--subtle);
   font-size: 0.74rem;
@@ -62,11 +63,40 @@ body {
   letter-spacing: 0.14em;
 }
 
+/* Profile identity and portrait */
+
+.profile-identity {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  min-width: 0;
+}
+
+.profile-picture {
+  display: block;
+  flex: 0 0 96px;
+
+  width: 96px;
+  height: 96px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.profile-name {
+  flex: 1;
+  min-width: 0;
+}
+
 .profile-header h1 {
   margin: 0;
 
   color: var(--text);
-  font-size: clamp(2.2rem, 7vw, 3.4rem);
+  font-size: clamp(2rem, 5.5vw, 3.1rem);
   font-weight: 750;
   line-height: 1.12;
   letter-spacing: -0.055em;
@@ -240,6 +270,33 @@ body {
   .page {
     width: calc(100% - 32px);
     padding-top: 30px;
+  }
+
+  .eyebrow {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .profile-identity {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    flex-basis: 96px;
+  }
+
+  .profile-header h1 {
+    font-size: clamp(2rem, 8vw, 2.6rem);
+  }
+
+  .name-japanese {
+    margin-top: 10px;
+  }
+
+  .tagline {
+    margin-top: 12px;
   }
 
   .social-link {
