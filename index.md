@@ -7,13 +7,24 @@ description: Personal links and a short introduction.
 <div class="profile">
 
   <header class="profile-header">
-    <p class="eyebrow">PERSONAL PROFILE</p>
+    <a class="brand" href="https://www.slblabs.com"
+       aria-label="SLB Labs website">
+      <img
+        class="brand-logo"
+        src="{{ '/assets/images/slblabs-logo.svg' | relative_url }}"
+        alt="SLB Labs"
+      >
+    </a>
+    
+    <p class="eyebrow">PERSONAL PROFILE / プロフィール</p>
 
     <h1>Salvatore La Bua</h1>
 
     <p class="name-japanese">サルヴァトーレ・ラブーア</p>
 
     <p class="tagline">Engineer <span>·</span> Tinkerer <span>·</span> Maker</p>
+
+    <p class="technical-signature">ELECTRONICS <span>/</span> SOFTWARE <span>/</span> MAKING</p>
   </header>
 
   <section class="intro">
@@ -36,7 +47,7 @@ description: Personal links and a short introduction.
 
     <nav class="social-links" aria-label="Profiles, projects, and interests">
 
-      <a class="social-link" href="https://github.com/slabua">
+      <a class="social-link" href="https://github.com/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">GH</span>
         <span class="link-copy">
           <strong>GitHub</strong>
@@ -45,7 +56,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="https://twitter.com/slabua">
+      <a class="social-link" href="https://twitter.com/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">TW</span>
         <span class="link-copy">
           <strong>Twitter</strong>
@@ -54,7 +65,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="https://linkedin.com/in/slabua">
+      <a class="social-link" href="https://linkedin.com/in/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IN</span>
         <span class="link-copy">
           <strong>LinkedIn</strong>
@@ -63,7 +74,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="https://instagram.com/slabua">
+      <a class="social-link" href="https://instagram.com/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
           <strong>Instagram</strong>
@@ -72,7 +83,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="https://www.slblabs.com">
+      <a class="social-link" href="https://www.slblabs.com" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">SLB</span>
         <span class="link-copy">
           <strong>SLB Labs</strong>
@@ -95,7 +106,7 @@ description: Personal links and a short introduction.
 
       <!-- Add your preferred direct-contact links here. -->
 
-      <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl">
+      <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">L</span>
         <span class="link-copy">
           <strong>LINE</strong>
@@ -104,7 +115,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
       
-      <a class="social-link" href="https://ig.me/m/slabua">
+      <a class="social-link" href="https://ig.me/m/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
           <strong>Instagram DM</strong>
@@ -120,6 +131,7 @@ description: Personal links and a short introduction.
     <span>SLB Labs</span>
     <span class="footer-dot">·</span>
     <span>Personal links</span>
+    <span class="footer-code">SLB / 01</span>
   </footer>
 
 </div>
