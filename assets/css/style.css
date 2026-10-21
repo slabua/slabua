@@ -59,7 +59,6 @@ body {
 
 /* Technical grid and circuit traces */
 
-/*
 body::before {
   position: fixed;
   z-index: -1;
@@ -80,8 +79,7 @@ body::before {
     transparent 100%
   );
 }
-*/
-
+/*
 body::before {
   position: fixed;
   z-index: 10;
@@ -94,7 +92,7 @@ body::before {
     linear-gradient(90deg, rgba(124, 183, 255, 0.2) 1px, transparent 1px);
   background-size: 32px 32px;
 }
-
+*/
 .page {
   width: min(100% - 40px, 680px);
   margin: 0 auto;
