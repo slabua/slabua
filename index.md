@@ -2,6 +2,7 @@
 layout: default
 title: Salvatore La Bua
 description: Personal links and a short introduction to Salvatore La Bua.
+custom_css: /assets/css/style.css
 ---
 
 <div class="profile">
