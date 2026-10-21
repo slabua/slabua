@@ -1,95 +1,95 @@
-<!--
+---
+layout: default
+title: Salvatore La Bua
+description: Personal links and a short introduction to Salvatore La Bua.
+---
 
-### Hi there 👋
+<div class="profile">
 
-**slabua/slabua** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <header class="profile-header">
+    <p class="eyebrow">PERSONAL PROFILE</p>
+    <h1>Salvatore La Bua</h1>
+    <p class="name-japanese">サルヴァトーレ・ラ・ブア</p>
+    <p class="tagline">Tinkerer <span>·</span> Engineer <span>·</span> Maker</p>
+  </header>
 
-Here are some ideas to get you started:
+  <section class="intro" aria-labelledby="about-heading">
+    <h2 id="about-heading">A little about me</h2>
+    <p>
+      I'm an engineer with a hands-on approach to technology. I enjoy
+      understanding how things work, solving problems, and building,
+      repairing, or modifying things myself.
+    </p>
+    <p class="interests">
+      Electronics <span>·</span> Programming <span>·</span>
+      Reverse engineering <span>·</span> Repair <span>·</span> Making
+    </p>
+  </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <section class="links-section" aria-labelledby="links-heading">
+    <h2 id="links-heading">Find me online</h2>
 
-<!-- https://github.com/anuraghazra/github-readme-stats -->
+    <nav class="social-links" aria-label="Social profiles and website">
 
-# [Salvatore La Bua](http://www.slblabs.com)
+      <a class="social-link" href="YOUR_GITHUB_URL">
+        <span class="link-mark" aria-hidden="true">GH</span>
+        <span class="link-copy">
+          <strong>GitHub</strong>
+          <small>Projects, experiments, and code</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
 
-[![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Twitter&logoColor=blue&labelColor=1b1b1b)](https://twitter.com/slabua)
-[![](https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b)](https://www.linkedin.com/in/slabua)
-[![](https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b)](mailto:slabua@gmail.com)  
+      <a class="social-link" href="YOUR_TWITTER_URL">
+        <span class="link-mark" aria-hidden="true">t</span>
+        <span class="link-copy">
+          <strong>Twitter</strong>
+          <small>Thoughts and interests</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
 
-[![](https://raw.githubusercontent.com/slabua/slabua/output/activity-graph.svg)](https://github.com/slabua)
-<!--
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=slabua&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
--->
+      <a class="social-link" href="YOUR_LINKEDIN_URL">
+        <span class="link-mark" aria-hidden="true">in</span>
+        <span class="link-copy">
+          <strong>LinkedIn</strong>
+          <small>Professional profile</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
 
-### Tinkerer. Computer Science Engineer.
-### Senior Machine Vision Engineer / PL at [株式会社Rist](http://rist.co.jp)
-- Currently:
-  - Senior Machine Vision Engineer / PL
-- Previously:
-  - Machine Vision Engineer / PL
-  - Factory Automation Equipment Engineer / PL
-  - Application Development Engineer / PL
-  - Robotics/AI Development Engineer / PL
-  - Robotics/AI Development Engineer
-- Skills and Experience:
-  - Robotics R&D, AI, ML, DL, FA.
-  - Robot design, control, motion, perception and manipulation.
-  - Image analysis, recognition and classification.
-  - AI algorithms design and implementation.
-  - UI/UX design and implementation.
-  - Hardware design and assembly.
-  - Wastewater monitoring.
-  - FA Equipment design and realisation.
-  - Camera/Lighting Equipment design and realisation.
-  - Custom sensors design and realisation.
-  - PCB design.
+      <a class="social-link" href="YOUR_INSTAGRAM_URL">
+        <span class="link-mark" aria-hidden="true">IG</span>
+        <span class="link-copy">
+          <strong>Instagram</strong>
+          <small>Personal interests and snapshots</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
 
+      <a class="social-link" href="YOUR_SLBLABS_URL">
+        <span class="link-mark" aria-hidden="true">SLB</span>
+        <span class="link-copy">
+          <strong>SLB Labs</strong>
+          <small>My projects and personal website</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
 
+    </nav>
+  </section>
 
-<!--
-<p align="center">
-  <br />
-  <a href="https://twitter.com/slabua">
-    <img src="https://img.shields.io/twitter/follow/slabua?style=flat&color=blue&logo=Twitter&logoColor=blue&label=%40slabua&labelColor=1b1b1b">
-  </a>&nbsp;
-  <a href="https://www.linkedin.com/in/slabua/">
-    <img src="https://img.shields.io/badge/-%40slabua-blue?style=flat&color=blue&logo=Linkedin&logoColor=blue&labelColor=1b1b1b">
-  </a>&nbsp;
-  <a href="mailto:slabua@gmail.com">
-    <img src="https://img.shields.io/badge/-slabua@gmail.com-blue?style=flat&color=blue&logo=Gmail&logoColor=blue&labelColor=1b1b1b">
-  </a>
-  !--
-  <a href="https://keybase.io/slabua">
-    <img src="https://img.shields.io/keybase/pgp/slabua?style=flat&logoColor=00AEFF&labelColor=black&color=7fff00">
-  </a> --
-</p> -->
+  <!-- Optional contact section:
+  <section class="contact-section" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <a href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a>
+  </section>
+  -->
 
+  <footer class="profile-footer">
+    <span>SLB Labs</span>
+    <span class="footer-dot">·</span>
+    <span>Personal links</span>
+  </footer>
 
-<!--
-[![](https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false)](https://github.com/slabua)
-
-[![](https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=github_dark&langs_count=20)](https://github.com/slabua)
-
-[![](https://raw.githubusercontent.com/slabua/slabua/output/activity-graph.svg)](https://github.com/slabua)
--->
-
-<!--
-<p align="center">
-  <br />
-  <a href="https://github.com/slabua">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=slabua&count_private=true&show_icons=true&theme=github_dark&include_all_commits=false" />
-  </a>
-  <br /><br />
-  <a href="https://github.com/slabua">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slabua&layout=compact&theme=github_dark&langs_count=20" />
-  </a>
-</p>
--->
+</div>
