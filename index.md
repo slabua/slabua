@@ -13,7 +13,7 @@ description: Personal links and a short introduction.
 
     <p class="name-japanese">サルヴァトーレ・ラブーア</p>
 
-    <p class="tagline">Tinkerer <span>·</span> Engineer <span>·</span> Maker</p>
+    <p class="tagline">Engineer <span>·</span> Tinkerer <span>·</span> Maker</p>
   </header>
 
   <section class="intro">
@@ -36,7 +36,7 @@ description: Personal links and a short introduction.
 
     <nav class="social-links" aria-label="Social profiles and website">
 
-      <a class="social-link" href="YOUR_GITHUB_URL">
+      <a class="social-link" href="https://github.com/slabua">
         <span class="link-mark" aria-hidden="true">GH</span>
         <span class="link-copy">
           <strong>GitHub</strong>
@@ -45,8 +45,8 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="YOUR_TWITTER_URL">
-        <span class="link-mark" aria-hidden="true">t</span>
+      <a class="social-link" href="https://twitter.com/slabua">
+        <span class="link-mark" aria-hidden="true">TW</span>
         <span class="link-copy">
           <strong>Twitter</strong>
           <small>Thoughts and interests</small>
@@ -54,8 +54,8 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="YOUR_LINKEDIN_URL">
-        <span class="link-mark" aria-hidden="true">in</span>
+      <a class="social-link" href="https://linkedin.com/slabua">
+        <span class="link-mark" aria-hidden="true">IN</span>
         <span class="link-copy">
           <strong>LinkedIn</strong>
           <small>Professional profile</small>
@@ -63,7 +63,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="YOUR_INSTAGRAM_URL">
+      <a class="social-link" href="https://instagram.com/slabua">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
           <strong>Instagram</strong>
@@ -72,7 +72,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="YOUR_SLBLABS_URL">
+      <a class="social-link" href="https://www.slblabs.com">
         <span class="link-mark" aria-hidden="true">SLB</span>
         <span class="link-copy">
           <strong>SLB Labs</strong>
