@@ -95,17 +95,15 @@ description: Personal links and a short introduction.
 
       <!-- Add your preferred direct-contact links here. -->
 
-      <!-- Example: LINE
-      <a class="social-link" href="YOUR_LINE_URL">
+      <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl">
         <span class="link-mark" aria-hidden="true">L</span>
         <span class="link-copy">
           <strong>LINE</strong>
-          <small>Chat with me on LINE</small>
+          <small>Add me on LINE</small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
-      -->
-
+      
       <a class="social-link" href="https://ig.me/m/slabua">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
