@@ -32,9 +32,9 @@ description: Personal links and a short introduction.
   </section>
 
   <section class="links-section">
-    <h2>Find me online</h2>
+    <h2>Explore my work &amp; interests</h2>
 
-    <nav class="social-links" aria-label="Social profiles and website">
+    <nav class="social-links" aria-label="Profiles, projects, and interests">
 
       <a class="social-link" href="https://github.com/slabua">
         <span class="link-mark" aria-hidden="true">GH</span>
@@ -81,6 +81,40 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
+    </nav>
+  </section>
+
+  <section class="links-section contact-section">
+    <h2>Get in touch</h2>
+
+    <p>
+      Want to get in touch? You can reach me through the channels below.
+    </p>
+
+    <nav class="social-links" aria-label="Direct contact">
+
+      <!-- Add your preferred direct-contact links here. -->
+
+      <!-- Example: LINE
+      <a class="social-link" href="YOUR_LINE_URL">
+        <span class="link-mark" aria-hidden="true">L</span>
+        <span class="link-copy">
+          <strong>LINE</strong>
+          <small>Chat with me on LINE</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      -->
+
+      <a class="social-link" href="https://ig.me/m/slabua">
+        <span class="link-mark" aria-hidden="true">IG</span>
+        <span class="link-copy">
+          <strong>Instagram DM</strong>
+          <small>Send me a direct message</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      
     </nav>
   </section>
 
