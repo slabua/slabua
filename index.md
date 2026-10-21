@@ -1,27 +1,38 @@
+---
+layout: default
+title: Salvatore La Bua
+description: Personal links and a short introduction.
+---
+
 <div class="profile">
 
   <header class="profile-header">
     <p class="eyebrow">PERSONAL PROFILE</p>
+
     <h1>Salvatore La Bua</h1>
+
     <p class="name-japanese">サルヴァトーレ・ラブーア</p>
+
     <p class="tagline">Tinkerer <span>·</span> Engineer <span>·</span> Maker</p>
   </header>
 
-  <section class="intro" aria-labelledby="about-heading">
-    <h2 id="about-heading">A little about me</h2>
+  <section class="intro">
+    <h2>A little about me</h2>
+
     <p>
-      I'm an engineer with a hands-on approach to technology. I enjoy
-      understanding how things work, solving problems, and building,
-      repairing, or modifying things myself.
+      I'm an engineer with a hands-on approach to technology.
+      I enjoy understanding how things work, solving problems,
+      and building, repairing, or modifying things myself.
     </p>
+
     <p class="interests">
       Electronics <span>·</span> Programming <span>·</span>
       Reverse engineering <span>·</span> Repair <span>·</span> Making
     </p>
   </section>
 
-  <section class="links-section" aria-labelledby="links-heading">
-    <h2 id="links-heading">Find me online</h2>
+  <section class="links-section">
+    <h2>Find me online</h2>
 
     <nav class="social-links" aria-label="Social profiles and website">
 
@@ -72,13 +83,6 @@
 
     </nav>
   </section>
-
-  <!-- Optional contact section:
-  <section class="contact-section" aria-labelledby="contact-heading">
-    <h2 id="contact-heading">Contact</h2>
-    <a href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a>
-  </section>
-  -->
 
   <footer class="profile-footer">
     <span>SLB Labs</span>
