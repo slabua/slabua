@@ -7,24 +7,13 @@ description: Personal links and a short introduction.
 <div class="profile">
 
   <header class="profile-header">
-    <a class="brand" href="https://www.slblabs.com"
-       aria-label="SLB Labs website">
-      <img
-        class="brand-logo"
-        src="{{ '/assets/images/slblabs-logo.svg' | relative_url }}"
-        alt="SLB Labs"
-      >
-    </a>
-    
-    <p class="eyebrow">PERSONAL PROFILE / プロフィール</p>
+    <p class="eyebrow">PERSONAL PROFILE</p>
 
     <h1>Salvatore La Bua</h1>
 
     <p class="name-japanese">サルヴァトーレ・ラブーア</p>
 
     <p class="tagline">Engineer <span>·</span> Tinkerer <span>·</span> Maker</p>
-
-    <p class="technical-signature">ELECTRONICS <span>/</span> SOFTWARE <span>/</span> MAKING</p>
   </header>
 
   <section class="intro">
@@ -131,7 +120,6 @@ description: Personal links and a short introduction.
     <span>SLB Labs</span>
     <span class="footer-dot">·</span>
     <span>Personal links</span>
-    <span class="footer-code">SLB / 01</span>
   </footer>
 
 </div>
