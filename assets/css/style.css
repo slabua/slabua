@@ -1,11 +1,11 @@
-
 :root {
   color-scheme: dark;
 
   --page-bg: #151b25;
-  --surface: #202a38;
-  --surface-hover: #263447;
-  --border: #344153;
+  --surface: #1c2634;
+  --surface-hover: #243449;
+  --border: #334256;
+  --border-hover: #52749b;
 
   --text: #e6edf3;
   --muted: #a9b7ca;
@@ -13,6 +13,9 @@
 
   --accent: #7cb7ff;
   --accent-strong: #a9d1ff;
+  --accent-dim: #42678f;
+
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 * {
@@ -22,13 +25,23 @@
 html {
   min-height: 100%;
   background: var(--page-bg);
+  scroll-behavior: smooth;
 }
 
 body {
+  position: relative;
   min-height: 100vh;
   margin: 0;
+  isolation: isolate;
 
-  background: var(--page-bg);
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(66, 103, 143, 0.13),
+      transparent 48rem
+    ),
+    var(--page-bg);
+
   color: var(--text);
 
   font-family:
@@ -44,31 +57,129 @@ body {
   line-height: 1.65;
 }
 
-.page {
-  width: min(100% - 36px, 620px);
-  margin: 0 auto;
-  padding: 48px 0 32px;
+/* Technical grid and circuit traces */
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(rgba(124, 183, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 183, 255, 0.035) 1px, transparent 1px);
+
+  background-size: 32px 32px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    rgba(0, 0, 0, 0.65) 45%,
+    transparent 100%
+  );
 }
 
+.page {
+  width: min(100% - 40px, 680px);
+  margin: 0 auto;
+  padding: 54px 0 34px;
+}
+
+.profile {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Subtle circuit-line decoration behind the content */
+
+.profile::before {
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  right: -10px;
+
+  width: 190px;
+  height: 210px;
+
+  content: "";
+  pointer-events: none;
+  opacity: 0.2;
+
+  background:
+    radial-gradient(
+      circle at 24px 36px,
+      var(--accent) 0 2px,
+      transparent 2.5px
+    ),
+    radial-gradient(
+      circle at 112px 36px,
+      var(--accent) 0 2px,
+      transparent 2.5px
+    ),
+    radial-gradient(
+      circle at 112px 102px,
+      var(--accent) 0 2px,
+      transparent 2.5px
+    ),
+    linear-gradient(var(--accent-dim), var(--accent-dim))
+      24px 36px / 88px 1px no-repeat,
+    linear-gradient(var(--accent-dim), var(--accent-dim))
+      112px 36px / 1px 66px no-repeat,
+    linear-gradient(var(--accent-dim), var(--accent-dim))
+      112px 102px / 54px 1px no-repeat,
+    linear-gradient(var(--accent-dim), var(--accent-dim))
+      166px 102px / 1px 58px no-repeat,
+    linear-gradient(var(--accent-dim), var(--accent-dim))
+      112px 160px / 54px 1px no-repeat,
+    radial-gradient(
+      circle at 112px 160px,
+      var(--accent) 0 2px,
+      transparent 2.5px
+    );
+
+  mask-image: linear-gradient(to left, black, transparent);
+}
+
+/* Header */
+
 .profile-header {
-  margin-bottom: 34px;
+  position: relative;
+  margin-bottom: 38px;
 }
 
 .eyebrow {
-  margin: 0 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  margin: 0 0 22px;
 
   color: var(--subtle);
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
+  font-family: var(--mono);
+  font-size: 0.69rem;
+  font-weight: 600;
+  letter-spacing: 0.105em;
 }
 
-/* Profile identity and portrait */
+.status-dot {
+  flex: 0 0 7px;
+  width: 7px;
+  height: 7px;
+
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(124, 183, 255, 0.28);
+}
+
+.eyebrow-divider {
+  color: var(--accent-dim);
+}
 
 .profile-identity {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 25px;
   min-width: 0;
 }
 
@@ -85,6 +196,10 @@ body {
   border: 2px solid var(--border);
   border-radius: 50%;
   background: var(--surface);
+
+  box-shadow:
+    0 0 0 5px rgba(124, 183, 255, 0.035),
+    0 8px 28px rgba(0, 0, 0, 0.18);
 }
 
 .profile-name {
@@ -94,6 +209,7 @@ body {
 
 .profile-header h1 {
   margin: 0;
+
   color: var(--text);
   font-size: 2.5rem;
   font-weight: 750;
@@ -104,6 +220,7 @@ body {
 
 .name-japanese {
   margin: 12px 0 0;
+
   color: var(--muted);
   font-family:
     "Noto Sans JP",
@@ -111,6 +228,7 @@ body {
     "Yu Gothic",
     Meiryo,
     sans-serif;
+
   font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: 0.06em;
@@ -118,78 +236,183 @@ body {
 }
 
 .tagline {
-  margin: 16px 0 0;
+  margin: 15px 0 0;
 
   color: var(--accent);
-  font-size: 1.02rem;
+  font-size: 0.96rem;
   font-weight: 650;
+  letter-spacing: 0.005em;
 }
 
-.tagline span,
-.interests span {
+.tagline span {
+  padding: 0 3px;
   color: var(--subtle);
 }
 
+.header-rule {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  height: 1px;
+  margin-top: 30px;
+
+  background: linear-gradient(
+    90deg,
+    var(--border),
+    rgba(51, 66, 86, 0.5) 72%,
+    transparent
+  );
+}
+
+.header-rule span {
+  display: none;
+}
+
+.header-rule span:first-child {
+  display: block;
+  flex: 0 0 36px;
+  height: 2px;
+  background: var(--accent-dim);
+}
+
+/* Main content */
+
 .intro,
 .links-section {
-  margin-top: 34px;
+  margin-top: 36px;
 }
 
 .profile h2 {
-  margin: 0 0 12px;
+  margin: 0 0 13px;
 
   color: var(--text);
   font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
 }
 
-.intro p {
+.profile h2 span {
+  padding: 0 3px;
+  color: var(--accent-dim);
+  font-family: var(--mono);
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.intro > p,
+.section-description {
   color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.intro > p:first-of-type {
+  margin-top: 0;
 }
 
 .interests {
-  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px 9px;
 
-  font-size: 0.9rem;
-  line-height: 1.9;
+  margin-top: 18px;
+
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.8;
 }
 
-/* Social profile cards */
+.interest-item {
+  color: var(--muted);
+}
+
+.interest-separator {
+  color: var(--accent-dim);
+}
+
+/* Section headings */
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.section-heading h2 {
+  min-width: 0;
+}
+
+.section-index {
+  flex: 0 0 auto;
+
+  color: var(--subtle);
+  font-family: var(--mono);
+  font-size: 0.69rem;
+  letter-spacing: 0.08em;
+}
+
+/* Link cards */
 
 .social-links {
   display: grid;
-  gap: 11px;
-  margin-top: 16px;
+  gap: 10px;
+  margin-top: 17px;
 }
 
 .social-link,
 .social-link:visited {
+  position: relative;
+
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 15px;
 
   min-width: 0;
   padding: 14px 16px;
 
   color: var(--text);
-  background: var(--surface);
+  background: rgba(28, 38, 52, 0.88);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 10px;
 
   text-decoration: none;
 
   transition:
-    background-color 140ms ease,
-    border-color 140ms ease,
-    transform 140ms ease;
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.social-link::before {
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: -1px;
+
+  width: 2px;
+
+  content: "";
+  background: var(--accent);
+  border-radius: 0 2px 2px 0;
+
+  opacity: 0;
+  transition: opacity 160ms ease;
 }
 
 .social-link:hover {
   color: var(--text);
   background: var(--surface-hover);
-  border-color: #526985;
+  border-color: var(--border-hover);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
   transform: translateY(-1px);
+}
+
+.social-link:hover::before {
+  opacity: 1;
 }
 
 .social-link:focus-visible {
@@ -207,58 +430,125 @@ body {
   height: 42px;
 
   color: var(--accent-strong);
-  background: #303d50;
-  border-radius: 10px;
+  background: #29384b;
+  border: 1px solid rgba(124, 183, 255, 0.08);
+  border-radius: 9px;
 
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.link-mark-brand {
+  color: var(--text);
+  background: #263b52;
+  border-color: rgba(124, 183, 255, 0.25);
+  letter-spacing: -0.08em;
 }
 
 .link-copy {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 2px;
+  gap: 3px;
   min-width: 0;
 }
 
 .link-copy strong {
   color: var(--text);
-  font-size: 0.98rem;
+  font-size: 0.96rem;
+  font-weight: 650;
   line-height: 1.35;
 }
 
 .link-copy small {
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.81rem;
   line-height: 1.45;
 }
 
 .link-arrow {
+  flex: 0 0 auto;
   padding-left: 6px;
 
   color: var(--accent);
-  font-size: 1.15rem;
+  font-family: var(--mono);
+  font-size: 1.05rem;
+
+  transition: transform 160ms ease;
 }
 
-/* Footer */
+.social-link:hover .link-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* Contact section */
+
+.contact-section {
+  padding-top: 2px;
+}
+
+.section-description {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* SLB Labs typographic signature */
 
 .profile-footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 9px;
+  justify-content: space-between;
+  gap: 18px;
 
-  margin-top: 44px;
+  margin-top: 48px;
+  padding-top: 22px;
 
-  color: var(--subtle);
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
+  border-top: 1px solid var(--border);
 }
 
-.footer-dot {
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-brand-name {
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  white-space: nowrap;
+}
+
+.footer-brand-accent {
   color: var(--accent);
+}
+
+.footer-brand-caption {
+  color: var(--subtle);
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.09em;
+}
+
+.footer-divider {
+  flex: 0 0 1px;
+  align-self: stretch;
+  min-height: 28px;
+  background: var(--border);
+}
+
+.footer-note {
+  color: var(--subtle);
+  font-size: 0.72rem;
+  text-align: right;
+}
+
+.footer-note span {
+  color: var(--accent-dim);
 }
 
 /* Mobile */
@@ -266,22 +556,37 @@ body {
 @media (max-width: 480px) {
   .page {
     width: calc(100% - 32px);
-    padding-top: 30px;
+    padding-top: 32px;
+  }
+
+  .profile::before {
+    top: -16px;
+    right: -4px;
+    opacity: 0.12;
+    transform: scale(0.8);
+    transform-origin: top right;
   }
 
   .eyebrow {
-    margin-bottom: 20px;
-    text-align: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    font-size: 0.64rem;
   }
 
   .profile-identity {
     flex-direction: column;
-    gap: 16px;
+    gap: 17px;
     text-align: center;
   }
 
   .profile-picture {
     flex-basis: 128px;
+    width: 128px;
+    height: 128px;
+  }
+
+  .profile-header h1 {
+    font-size: 2.5rem;
   }
 
   .name-japanese {
@@ -290,25 +595,114 @@ body {
 
   .tagline {
     margin-top: 12px;
+    font-size: 0.9rem;
   }
 
-  .social-link {
+  .header-rule {
+    margin-top: 25px;
+  }
+
+  .intro,
+  .links-section {
+    margin-top: 30px;
+  }
+
+  .profile h2 {
+    font-size: 1rem;
+  }
+
+  .intro > p,
+  .section-description {
+    font-size: 0.92rem;
+  }
+
+  .social-links {
+    gap: 9px;
+  }
+
+  .social-link,
+  .social-link:visited {
+    gap: 12px;
     padding: 12px;
   }
 
+  .link-mark {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
   .link-copy small {
-    font-size: 0.78rem;
+    font-size: 0.77rem;
+  }
+
+  .profile-footer {
+    gap: 12px;
+    margin-top: 38px;
+  }
+
+  .footer-brand-caption {
+    font-size: 0.49rem;
+    letter-spacing: 0.045em;
+  }
+
+  .footer-note {
+    font-size: 0.66rem;
+  }
+}
+
+/* Narrow phones */
+
+@media (max-width: 360px) {
+  .page {
+    width: calc(100% - 28px);
+  }
+
+  .profile-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .name-japanese {
+    font-size: 1.2rem;
+  }
+
+  .eyebrow {
+    letter-spacing: 0.07em;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+  }
+
+  .section-index {
+    padding-top: 3px;
+  }
+
+  .footer-note {
+    max-width: 105px;
   }
 }
 
 /* Accessibility */
 
 @media (prefers-reduced-motion: reduce) {
-  .social-link {
-    transition: none;
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 
   .social-link:hover {
+    transform: none;
+  }
+
+  .social-link:hover .link-arrow {
     transform: none;
   }
 }
