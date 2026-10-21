@@ -151,7 +151,7 @@ description: Personal links and a short introduction.
   <footer class="profile-footer">
     <div class="footer-brand">
       <span class="footer-brand-name">SLB<span class="footer-brand-accent">.</span>LABS</span>
-      <span class="footer-brand-caption">ENGINEERED WITH CURIOSITY</span>
+      <span class="footer-brand-caption">未来を作ろう</span>
     </div>
 
     <span class="footer-divider" aria-hidden="true"></span>
