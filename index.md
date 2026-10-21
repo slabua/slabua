@@ -35,25 +35,7 @@ description: Personal links and a short introduction.
     <h2>Explore my work &amp; interests / 活動・興味</h2>
 
     <nav class="social-links" aria-label="Profiles, projects, and interests">
-
-      <a class="social-link" href="https://github.com/slabua" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">GH</span>
-        <span class="link-copy">
-          <strong>GitHub</strong>
-          <small>Projects, experiments, and code</small>
-        </span>
-        <span class="link-arrow" aria-hidden="true">↗</span>
-      </a>
-
-      <a class="social-link" href="https://twitter.com/slabua" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">TW</span>
-        <span class="link-copy">
-          <strong>Twitter</strong>
-          <small>Thoughts and interests</small>
-        </span>
-        <span class="link-arrow" aria-hidden="true">↗</span>
-      </a>
-
+    
       <a class="social-link" href="https://linkedin.com/in/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IN</span>
         <span class="link-copy">
@@ -62,7 +44,25 @@ description: Personal links and a short introduction.
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
-
+      
+      <a class="social-link" href="https://github.com/slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark" aria-hidden="true">GH</span>
+        <span class="link-copy">
+          <strong>GitHub</strong>
+          <small>Projects, experiments, and code</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      
+      <a class="social-link" href="https://www.slblabs.com" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark" aria-hidden="true">SLB</span>
+        <span class="link-copy">
+          <strong>SLB Labs</strong>
+          <small>My projects and personal website</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      
       <a class="social-link" href="https://instagram.com/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
@@ -71,12 +71,12 @@ description: Personal links and a short introduction.
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
-
-      <a class="social-link" href="https://www.slblabs.com" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">SLB</span>
+      
+      <a class="social-link" href="https://twitter.com/slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark" aria-hidden="true">TW</span>
         <span class="link-copy">
-          <strong>SLB Labs</strong>
-          <small>My projects and personal website</small>
+          <strong>Twitter</strong>
+          <small>Thoughts and interests</small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
@@ -96,7 +96,7 @@ description: Personal links and a short introduction.
       <!-- Add your preferred direct-contact links here. -->
 
       <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">L</span>
+        <span class="link-mark" aria-hidden="true">LI</span>
         <span class="link-copy">
           <strong>LINE</strong>
           <small>Add me on LINE</small>
@@ -107,7 +107,7 @@ description: Personal links and a short introduction.
       <a class="social-link" href="https://ig.me/m/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
-          <strong>Instagram DM</strong>
+          <strong>Instagram</strong>
           <small>Send me a direct message</small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
