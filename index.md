@@ -105,20 +105,20 @@ description: Personal links and a short introduction.
 
     <nav class="social-links" aria-label="Direct contact">
 
-      <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">LI</span>
-        <span class="link-copy">
-          <strong>LINE</strong>
-          <small>Add me on LINE</small>
-        </span>
-        <span class="link-arrow" aria-hidden="true">↗</span>
-      </a>
-
       <a class="social-link" href="https://ig.me/m/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">IG</span>
         <span class="link-copy">
           <strong>Instagram</strong>
           <small>Send me a direct message</small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark" aria-hidden="true">LI</span>
+        <span class="link-copy">
+          <strong>LINE</strong>
+          <small>Add me on LINE</small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
