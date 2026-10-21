@@ -5,6 +5,8 @@ description: Personal links and a short introduction to Salvatore La Bua.
 custom_css: /assets/css/style.css
 ---
 
+@import "{{ site.theme }}";
+
 <div class="profile">
 
   <header class="profile-header">
