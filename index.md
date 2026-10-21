@@ -17,7 +17,7 @@ description: Personal links and a short introduction.
   </header>
 
   <section class="intro">
-    <h2>A little about me</h2>
+    <h2>A little about me / 自己紹介</h2>
 
     <p>
       I'm an engineer with a hands-on approach to technology.
@@ -32,7 +32,7 @@ description: Personal links and a short introduction.
   </section>
 
   <section class="links-section">
-    <h2>Explore my work &amp; interests</h2>
+    <h2>Explore my work &amp; interests / 活動・興味</h2>
 
     <nav class="social-links" aria-label="Profiles, projects, and interests">
 
@@ -85,7 +85,7 @@ description: Personal links and a short introduction.
   </section>
 
   <section class="links-section contact-section">
-    <h2>Get in touch</h2>
+    <h2>Get in touch / 連絡先</h2>
 
     <p>
       Want to get in touch? You can reach me through the channels below.
