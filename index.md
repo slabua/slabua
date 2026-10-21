@@ -54,7 +54,7 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <a class="social-link" href="https://linkedin.com/slabua">
+      <a class="social-link" href="https://linkedin.com/in/slabua">
         <span class="link-mark" aria-hidden="true">IN</span>
         <span class="link-copy">
           <strong>LinkedIn</strong>
