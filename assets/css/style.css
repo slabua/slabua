@@ -207,7 +207,7 @@ body::before {
   object-position: center;
 
   border: 2px solid var(--border);
-  border-radius: 50%;
+  border-radius: 20%;
   background: var(--surface);
 
   box-shadow:
@@ -445,7 +445,7 @@ body::before {
   color: var(--accent-strong);
   background: #29384b;
   border: 1px solid rgba(124, 183, 255, 0.08);
-  border-radius: 9px;
+  border-radius: 20%;
 
   font-family: var(--mono);
   font-size: 0.76rem;
