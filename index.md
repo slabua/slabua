@@ -7,7 +7,10 @@ description: Personal links and a short introduction.
 <div class="profile">
 
   <header class="profile-header">
-    <p class="eyebrow">PERSONAL PROFILE / プロフィール</p>
+    <p class="eyebrow">
+      <span class="status-dot" aria-hidden="true"></span>
+      PERSONAL PROFILE <span class="eyebrow-divider">/</span> プロフィール
+    </p>
 
     <div class="profile-identity">
       <img
@@ -26,10 +29,16 @@ description: Personal links and a short introduction.
         <p class="tagline">Engineer <span>·</span> Tinkerer <span>·</span> Maker</p>
       </div>
     </div>
+
+    <div class="header-rule" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </header>
 
   <section class="intro">
-    <h2>A little about me / 自己紹介</h2>
+    <h2>A little about me <span>/</span> 自己紹介</h2>
 
     <p>
       I'm an engineer with a hands-on approach to technology.
@@ -38,13 +47,23 @@ description: Personal links and a short introduction.
     </p>
 
     <p class="interests">
-      Electronics <span>·</span> Programming <span>·</span>
-      Reverse engineering <span>·</span> Repair <span>·</span> Making
+      <span class="interest-item">Electronics</span>
+      <span class="interest-separator">/</span>
+      <span class="interest-item">Programming</span>
+      <span class="interest-separator">/</span>
+      <span class="interest-item">Reverse engineering</span>
+      <span class="interest-separator">/</span>
+      <span class="interest-item">Repair</span>
+      <span class="interest-separator">/</span>
+      <span class="interest-item">Making</span>
     </p>
   </section>
 
   <section class="links-section">
-    <h2>Explore my work &amp; interests / 活動・興味</h2>
+    <div class="section-heading">
+      <h2>Explore my work &amp; interests <span>/</span> 活動・興味</h2>
+      <span class="section-index">01</span>
+    </div>
 
     <nav class="social-links" aria-label="Profiles, projects, and interests">
 
@@ -67,7 +86,7 @@ description: Personal links and a short introduction.
       </a>
 
       <a class="social-link" href="https://www.slblabs.com" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">SLB</span>
+        <span class="link-mark link-mark-brand" aria-hidden="true">SLB</span>
         <span class="link-copy">
           <strong>SLB Labs</strong>
           <small>My projects and personal website</small>
@@ -97,9 +116,12 @@ description: Personal links and a short introduction.
   </section>
 
   <section class="links-section contact-section">
-    <h2>Get in touch / 連絡先</h2>
+    <div class="section-heading">
+      <h2>Get in touch <span>/</span> 連絡先</h2>
+      <span class="section-index">02</span>
+    </div>
 
-    <p>
+    <p class="section-description">
       Want to get in touch? You can reach me through the channels below.
     </p>
 
@@ -127,9 +149,14 @@ description: Personal links and a short introduction.
   </section>
 
   <footer class="profile-footer">
-    <span>SLB Labs</span>
-    <span class="footer-dot">·</span>
-    <span>Personal links</span>
+    <div class="footer-brand">
+      <span class="footer-brand-name">SLB<span class="footer-brand-accent">.</span>LABS</span>
+      <span class="footer-brand-caption">ENGINEERED WITH CURIOSITY</span>
+    </div>
+
+    <span class="footer-divider" aria-hidden="true"></span>
+
+    <span class="footer-note">Personal links <span>/</span> 個人リンク</span>
   </footer>
 
 </div>
