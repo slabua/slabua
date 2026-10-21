@@ -1,16 +1,9 @@
----
-layout: default
-title: Salvatore La Bua
-description: Personal links and a short introduction to Salvatore La Bua.
-custom_css: /assets/css/style.css
----
-
 <div class="profile">
 
   <header class="profile-header">
     <p class="eyebrow">PERSONAL PROFILE</p>
     <h1>Salvatore La Bua</h1>
-    <p class="name-japanese">サルヴァトーレ・ラ・ブア</p>
+    <p class="name-japanese">サルヴァトーレ・ラブーア</p>
     <p class="tagline">Tinkerer <span>·</span> Engineer <span>·</span> Maker</p>
   </header>
 
