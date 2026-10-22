@@ -63,42 +63,6 @@ body {
   background-attachment: scroll;
 }
 
-/* Technical grid and circuit traces */
-
-body::before {
-  position: fixed;
-  z-index: -1;
-  inset: 0;
-  content: "";
-  pointer-events: none;
-
-  background-image:
-    linear-gradient(rgba(124, 183, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 183, 255, 0.07) 1px, transparent 1px);
-
-  background-size: 32px 32px;
-
-  mask-image: linear-gradient(
-    to bottom,
-    black 0%,
-    rgba(0, 0, 0, 0.65) 45%,
-    transparent 100%
-  );
-}
-/*
-body::before {
-  position: fixed;
-  z-index: 10;
-  inset: 0;
-  content: "";
-  pointer-events: none;
-
-  background-image:
-    linear-gradient(rgba(124, 183, 255, 0.2) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 183, 255, 0.2) 1px, transparent 1px);
-  background-size: 32px 32px;
-}
-*/
 .page {
   width: min(100% - 40px, 680px);
   margin: 0 auto;
@@ -108,56 +72,6 @@ body::before {
 .profile {
   position: relative;
   isolation: isolate;
-}
-
-/* Subtle circuit-line decoration behind the content */
-
-.profile::before {
-  position: absolute;
-  z-index: -1;
-  top: -30px;
-  right: -10px;
-
-  width: 190px;
-  height: 210px;
-
-  content: "";
-  pointer-events: none;
-  opacity: 0.2;
-
-  background:
-    radial-gradient(
-      circle at 24px 36px,
-      var(--accent) 0 2px,
-      transparent 2.5px
-    ),
-    radial-gradient(
-      circle at 112px 36px,
-      var(--accent) 0 2px,
-      transparent 2.5px
-    ),
-    radial-gradient(
-      circle at 112px 102px,
-      var(--accent) 0 2px,
-      transparent 2.5px
-    ),
-    linear-gradient(var(--accent-dim), var(--accent-dim))
-      24px 36px / 88px 1px no-repeat,
-    linear-gradient(var(--accent-dim), var(--accent-dim))
-      112px 36px / 1px 66px no-repeat,
-    linear-gradient(var(--accent-dim), var(--accent-dim))
-      112px 102px / 54px 1px no-repeat,
-    linear-gradient(var(--accent-dim), var(--accent-dim))
-      166px 102px / 1px 58px no-repeat,
-    linear-gradient(var(--accent-dim), var(--accent-dim))
-      112px 160px / 54px 1px no-repeat,
-    radial-gradient(
-      circle at 112px 160px,
-      var(--accent) 0 2px,
-      transparent 2.5px
-    );
-
-  mask-image: linear-gradient(to left, black, transparent);
 }
 
 /* Header */
@@ -576,14 +490,6 @@ body::before {
   .page {
     width: calc(100% - 32px);
     padding-top: 32px;
-  }
-
-  .profile::before {
-    top: -16px;
-    right: -4px;
-    opacity: 0.12;
-    transform: scale(0.8);
-    transform-origin: top right;
   }
 
   .eyebrow {
