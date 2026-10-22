@@ -57,10 +57,10 @@ body {
     ),
     url("https://lh4.googleusercontent.com/-DtgN81TbvRM/U_HSoUs4MOI/AAAAAAAA2fQ/AIyRxoGGbAc/s0-no/bg.png");
 
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
 }
 
 /* Technical grid and circuit traces */
