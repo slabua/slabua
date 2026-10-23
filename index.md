@@ -177,6 +177,18 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
+      <a class="social-link" href="http://www.facebook.com/slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark">FB</span>
+        <span class="link-copy">
+          <strong>Facebook</strong>
+          <small>
+            <span data-lang="en">Personal profile and updates</span>
+            <span data-lang="ja">プロフィールや近況</span>
+          </small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+
     </nav>
   </section>
 
@@ -218,6 +230,18 @@ description: Personal links and a short introduction.
           <small>
             <span data-lang="en">Add me on LINE</span>
             <span data-lang="ja">LINEで友だち追加</span>
+          </small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="social-link" href="https://m.me/slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark">MS</span>
+        <span class="link-copy">
+          <strong>Messenger</strong>
+          <small>
+            <span data-lang="en">Send me a direct message</span>
+            <span data-lang="ja">メッセージを送る</span>
           </small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
