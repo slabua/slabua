@@ -31,10 +31,10 @@ html[data-language="ja"] [data-lang="en"] {
 
 html {
   min-height: 100%;
+  min-width: 240px;
   background: var(--page-bg);
   scroll-behavior: smooth;
 }
-
 
 body {
   min-height: 100vh;
@@ -70,6 +70,7 @@ body {
 
 .page {
   width: min(100% - 40px, 680px);
+  min-width: 240px;
   margin: 0 auto;
   padding: 54px 0 34px;
 }
