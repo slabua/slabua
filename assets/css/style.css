@@ -205,7 +205,7 @@ body {
   margin: 0;
 
   color: var(--text);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 750;
   line-height: 1.12;
   letter-spacing: -0.05em;
@@ -568,7 +568,7 @@ body {
   }
 
   .profile-header h1 {
-    font-size: 1.2rem;
+    font-size: 1.75rem;
   }
 
   .name-japanese {
@@ -641,7 +641,7 @@ body {
   }
 
   .profile-header h1 {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
   }
 
   .name-japanese {
