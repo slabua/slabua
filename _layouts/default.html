@@ -1,26 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title | default: site.title | escape }}</title>
+
+  <meta
+    name="description"
+    content="{{ page.description | default: site.description | escape }}"
+    data-description-en="Personal links and a short introduction."
+    data-description-ja="プロフィール、活動、各種リンクをまとめた個人ページです。"
+  >
+
+  <meta name="theme-color" content="#151b25">
+
+  <script>
+    (function () {
+      var language = "en";
+
+      try {
+        var savedLanguage = sessionStorage.getItem("slblabs-language");
+
+        if (savedLanguage === "en" || savedLanguage === "ja") {
+          language = savedLanguage;
+        } else {
+          var preferredLanguage =
+            (navigator.languages && navigator.languages.length
+              ? navigator.languages[0]
+              : navigator.language || "en").toLowerCase();
+
+          language = preferredLanguage.startsWith("ja") ? "ja" : "en";
+        }
+      } catch (error) {
+        var preferredLanguage =
+          (navigator.languages && navigator.languages.length
+            ? navigator.languages[0]
+            : navigator.language || "en").toLowerCase();
+
+        language = preferredLanguage.startsWith("ja") ? "ja" : "en";
+      }
+
+      document.documentElement.lang = language;
+      document.documentElement.dataset.language = language;
+
+      var description = document.querySelector('meta[name="description"]');
+
+      if (description) {
+        description.content =
+          description.getAttribute("data-description-" + language) ||
+          description.content;
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var languageButtons =
+          document.querySelectorAll("[data-set-language]");
+
+        function setLanguage(newLanguage, saveChoice) {
+          if (newLanguage !== "en" && newLanguage !== "ja") {
+            return;
+          }
+
+          document.documentElement.lang = newLanguage;
+          document.documentElement.dataset.language = newLanguage;
+
+          if (saveChoice) {
+            try {
+              sessionStorage.setItem("slblabs-language", newLanguage);
+            } catch (error) {
+              // Language switching still works if session storage is unavailable.
+            }
+          }
+
+          languageButtons.forEach(function (button) {
+            button.setAttribute(
+              "aria-pressed",
+              String(button.dataset.setLanguage === newLanguage)
+            );
+          });
+
+          document.querySelectorAll("[data-alt-en][data-alt-ja]")
+            .forEach(function (element) {
+              element.alt = element.getAttribute("data-alt-" + newLanguage);
+            });
+
+          document.querySelectorAll("[data-aria-en][data-aria-ja]")
+            .forEach(function (element) {
+              element.setAttribute(
+                "aria-label",
+                element.getAttribute("data-aria-" + newLanguage)
+              );
+            });
+
+          var metaDescription =
+            document.querySelector('meta[name="description"]');
+
+          if (metaDescription) {
+            metaDescription.content =
+              metaDescription.getAttribute(
+                "data-description-" + newLanguage
+              ) || metaDescription.content;
+          }
+        }
+
+        languageButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            setLanguage(button.dataset.setLanguage, true);
+          });
+        });
+
+        setLanguage(language, false);
+      });
+    })();
+  </script>
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+  >
+
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-79F41ELGYV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
     gtag('config', 'G-79F41ELGYV');
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{{ page.title | default: site.title | escape }}</title>
-  <meta name="description"
-        content="{{ page.description | default: site.description | escape }}">
-
-  <meta name="theme-color" content="#151b25">
-
-  <link rel="stylesheet"
-        href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
