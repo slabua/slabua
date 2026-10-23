@@ -38,7 +38,7 @@ description: Personal links and a short introduction.
 
         <p class="tagline">
           <span data-lang="en">Engineer <span>·</span> Tinkerer <span>·</span> Maker</span>
-          <span data-lang="ja">エンジニア <span>·</span> 技術探究 <span>·</span> ものづくり</span>
+          <span data-lang="ja">エンジニア <span>·</span> 技術屋 <span>·</span> ものづくり</span>
         </p>
       </div>
     </div>
