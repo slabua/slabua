@@ -127,6 +127,7 @@ body {
 
 .profile-topline .eyebrow {
   margin: 0;
+  line-height: 1;
 }
 
 .language-switch {
