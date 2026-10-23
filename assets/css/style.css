@@ -141,15 +141,24 @@ body {
 }
 
 .language-switch button {
-  padding: 5px 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 28px;
+  padding: 3px 8px;
+
   color: var(--muted);
   background: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
-  font: inherit;
+
   font-family: var(--mono);
   font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1;
   cursor: pointer;
+
   transition:
     color 160ms ease,
     background-color 160ms ease,
