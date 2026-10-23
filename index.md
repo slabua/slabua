@@ -141,6 +141,18 @@ description: Personal links and a short introduction.
         <span class="link-arrow" aria-hidden="true">↗</span>
       </a>
 
+      <a class="social-link" href="https://www.threads.com/@slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark">TH</span>
+        <span class="link-copy">
+          <strong>Threads</strong>
+          <small>
+            <span data-lang="en">Conversations and thoughts</span>
+            <span data-lang="ja">日々の考えや会話</span>
+          </small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+
       <a class="social-link" href="https://twitter.com/slabua" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">TW</span>
         <span class="link-copy">
@@ -148,6 +160,18 @@ description: Personal links and a short introduction.
           <small>
             <span data-lang="en">Thoughts and interests</span>
             <span data-lang="ja">考えや興味について</span>
+          </small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      
+      <a class="social-link" href="https://bsky.app/profile/slabua.bsky.social" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark">BS</span>
+        <span class="link-copy">
+          <strong>Bluesky</strong>
+          <small>
+            <span data-lang="en">Posts and interests</span>
+            <span data-lang="ja">投稿や興味のあること</span>
           </small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
