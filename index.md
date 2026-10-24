@@ -211,18 +211,6 @@ description: Personal links and a short introduction.
          data-aria-en="Direct contact"
          data-aria-ja="直接の連絡先">
 
-      <a class="social-link" href="https://ig.me/m/slabua" target="_blank" rel="noopener noreferrer">
-        <span class="link-mark" aria-hidden="true">IG</span>
-        <span class="link-copy">
-          <strong>Instagram</strong>
-          <small>
-            <span data-lang="en">Send me a direct message</span>
-            <span data-lang="ja">ダイレクトメッセージを送る</span>
-          </small>
-        </span>
-        <span class="link-arrow" aria-hidden="true">↗</span>
-      </a>
-
       <a class="social-link" href="https://line.me/ti/p/NHW1ES4Jhl" target="_blank" rel="noopener noreferrer">
         <span class="link-mark" aria-hidden="true">LI</span>
         <span class="link-copy">
@@ -230,6 +218,18 @@ description: Personal links and a short introduction.
           <small>
             <span data-lang="en">Add me on LINE</span>
             <span data-lang="ja">LINEで友だち追加</span>
+          </small>
+        </span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="social-link" href="https://ig.me/m/slabua" target="_blank" rel="noopener noreferrer">
+        <span class="link-mark" aria-hidden="true">IG</span>
+        <span class="link-copy">
+          <strong>Instagram</strong>
+          <small>
+            <span data-lang="en">Send me a direct message</span>
+            <span data-lang="ja">ダイレクトメッセージを送る</span>
           </small>
         </span>
         <span class="link-arrow" aria-hidden="true">↗</span>
